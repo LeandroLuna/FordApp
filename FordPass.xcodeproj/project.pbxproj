@@ -16,6 +16,8 @@
 		71417D9F28F511FC0005DAD5 /* FordPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71417D9E28F511FC0005DAD5 /* FordPassTests.swift */; };
 		71417DA928F511FC0005DAD5 /* FordPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71417DA828F511FC0005DAD5 /* FordPassUITests.swift */; };
 		71417DAB28F511FC0005DAD5 /* FordPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71417DAA28F511FC0005DAD5 /* FordPassUITestsLaunchTests.swift */; };
+		718874E8290B5C790004D070 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874E7290B5C790004D070 /* Car.swift */; };
+		718874EA290B5FE00004D070 /* CarBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718874E9290B5FE00004D070 /* CarBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		71417DA428F511FC0005DAD5 /* FordPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FordPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71417DA828F511FC0005DAD5 /* FordPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordPassUITests.swift; sourceTree = "<group>"; };
 		71417DAA28F511FC0005DAD5 /* FordPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		718874E7290B5C790004D070 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		718874E9290B5FE00004D070 /* CarBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,11 @@
 		71417D8628F511FA0005DAD5 /* FordPass */ = {
 			isa = PBXGroup;
 			children = (
+				718874E6290B59F40004D070 /* Controller */,
+				718874E5290B59E30004D070 /* View */,
+				718874E4290B59D90004D070 /* Model */,
 				71417D8728F511FA0005DAD5 /* AppDelegate.swift */,
 				71417D8928F511FA0005DAD5 /* SceneDelegate.swift */,
-				71417D8B28F511FA0005DAD5 /* ViewController.swift */,
-				71417D8D28F511FA0005DAD5 /* Main.storyboard */,
 				71417D9028F511FC0005DAD5 /* Assets.xcassets */,
 				71417D9228F511FC0005DAD5 /* LaunchScreen.storyboard */,
 				71417D9528F511FC0005DAD5 /* Info.plist */,
@@ -125,6 +130,31 @@
 				71417DAA28F511FC0005DAD5 /* FordPassUITestsLaunchTests.swift */,
 			);
 			path = FordPassUITests;
+			sourceTree = "<group>";
+		};
+		718874E4290B59D90004D070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				718874E7290B5C790004D070 /* Car.swift */,
+				718874E9290B5FE00004D070 /* CarBrain.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		718874E5290B59E30004D070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71417D8D28F511FA0005DAD5 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		718874E6290B59F40004D070 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71417D8B28F511FA0005DAD5 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718874EA290B5FE00004D070 /* CarBrain.swift in Sources */,
 				71417D8C28F511FA0005DAD5 /* ViewController.swift in Sources */,
 				71417D8828F511FA0005DAD5 /* AppDelegate.swift in Sources */,
+				718874E8290B5C790004D070 /* Car.swift in Sources */,
 				71417D8A28F511FA0005DAD5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
