@@ -18,3 +18,4 @@ struct Car{
         self.availableUpgrades = availableUpgrades
     }
 }
+

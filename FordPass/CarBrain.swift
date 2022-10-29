@@ -18,3 +18,4 @@ struct CarBrain {
         return cars[position]
     }
 }
+
