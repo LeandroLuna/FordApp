@@ -1,1 +1,3 @@
 # FordApp
+
+A solution to modernize older Ford vehicles, incorporating low-cost sensors and technologies used in newer models. The solution aims to extend the useful life of vehicles, in addition to providing access to FordPass application services. The solution used Swift for application development, sensors to capture vehicle data, Arduino microcontroller, ESP32 for MQTT communication, IBM Watson cloud platform and REST API to send information to the IOS application and to the web application, built with React, NestJS and Prisma. The project included everything from UX research to architecture planning, however, it was discontinued before full implementation.
